@@ -28,16 +28,16 @@ autoscaling:
   targetMemoryUtilizationPercentage: 80
 
 conf:
-  salute: "better ask for forgiveness than permission"
+  salute: "Hello Ekoparty!"
   ##----------------------------------------------------------------------
   ## Demo salute
   ##----------------------------------------------------------------------
-  salute: "One Ring to link them all, One Ring to ping them, one Ring to bring them all and in the darkness sniff them."
+  #salute: "One Ring to link them all, One Ring to ping them, one Ring to bring them all and in the darkness sniff them."
   ##----------------------------------------------------------------------
   # Initial header
-  header: "https://ekoparty.org/web/image/1309/badges.jpg"
+  #header: "https://ekoparty.org/web/image/1309/badges.jpg"
   ##----------------------------------------------------------------------
   ## Demo header
   ##----------------------------------------------------------------------
-  #header: "https://64.media.tumblr.com/tumblr_mdancgV98b1r4xjo2o1_500.gif"
+  header: "https://64.media.tumblr.com/tumblr_mdancgV98b1r4xjo2o1_500.gif"
 
