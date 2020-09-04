@@ -29,5 +29,4 @@ autoscaling:
 
 conf:
   salute: "better ask for forgiveness than permission"
-  #header: "https://ekoparty.org/web/image/1309/badges.jpg"
-  header: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/93b64b88-7e91-4762-bd75-ee9e42975505/daxtpz4-85d6f953-f404-475e-a720-08d18472af16.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvOTNiNjRiODgtN2U5MS00NzYyLWJkNzUtZWU5ZTQyOTc1NTA1XC9kYXh0cHo0LTg1ZDZmOTUzLWY0MDQtNDc1ZS1hNzIwLTA4ZDE4NDcyYWYxNi5naWYifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.KooiN4t_YLbgBuo3h9anlr161eoo0D4v1kKuZCUHz-c"
+  header: "https://ekoparty.org/web/image/1309/badges.jpg"
