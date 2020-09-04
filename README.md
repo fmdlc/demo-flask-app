@@ -1,8 +1,11 @@
 ![https://media-exp1.licdn.com/dms/image/C4E1BAQF0-zKgjLFxiQ/company-background_10000/0?e=2159024400&v=beta&t=B1JsIFyearEmYZXtVxOjb-cKBSMB-jrdtmO7MKZH1Ls](https://media-exp1.licdn.com/dms/image/C4E1BAQF0-zKgjLFxiQ/company-background_10000/0?e=2159024400&v=beta&t=B1JsIFyearEmYZXtVxOjb-cKBSMB-jrdtmO7MKZH1Ls)
 
 # ekoparty-flask-app
+![ekoparty-flask-app](https://github.com/fmdlc/ekoparty-flask-app/workflows/ekoparty-flask-app/badge.svg)
 
 Basic `Python 3.8` Flask application to run in a Kubernetes cluster.
+
+[![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/fmdlc) [![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/fmdlc)
 
 ### Build
 
