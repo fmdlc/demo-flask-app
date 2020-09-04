@@ -29,4 +29,10 @@ autoscaling:
 
 conf:
   salute: "better ask for forgiveness than permission"
-  header: "https://64.media.tumblr.com/tumblr_mdancgV98b1r4xjo2o1_500.gif"
+  # Initial header
+  header: "https://ekoparty.org/web/image/1309/badges.jpg"
+  ##----------------------------------------------------------------------
+  ## Demo header
+  ##----------------------------------------------------------------------
+  #header: "https://64.media.tumblr.com/tumblr_mdancgV98b1r4xjo2o1_500.gif"
+
