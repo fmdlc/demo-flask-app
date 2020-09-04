@@ -29,6 +29,11 @@ autoscaling:
 
 conf:
   salute: "better ask for forgiveness than permission"
+  ##----------------------------------------------------------------------
+  ## Demo salute
+  ##----------------------------------------------------------------------
+  salute: "One Ring to link them all, One Ring to ping them, one Ring to bring them all and in the darkness sniff them."
+  ##----------------------------------------------------------------------
   # Initial header
   header: "https://ekoparty.org/web/image/1309/badges.jpg"
   ##----------------------------------------------------------------------
