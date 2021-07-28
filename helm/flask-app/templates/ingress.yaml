@@ -21,9 +21,30 @@ spec:
   tls:
     - hosts:
       - flask-app.tty0.guru
+      - email.tty0.guru
       secretName: ingress-tls
   rules:
   - host: "flask-app.tty.guru"
+    http:
+      paths:
+      - pathType: Prefix
+        path: "/"
+        backend:
+          service:
+            name: flask-app
+            port:
+              number: 8000
+  - host: "dc-solutions.tty0.guru"
+    http:
+      paths:
+      - pathType: Prefix
+        path: "/"
+        backend:
+          service:
+            name: flask-app
+            port:
+              number: 8000
+  - host: "email.tty0.guru"
     http:
       paths:
       - pathType: Prefix
