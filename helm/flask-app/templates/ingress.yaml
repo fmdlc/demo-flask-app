@@ -5,7 +5,13 @@ metadata:
   labels:
     {{- include "ekoparty-flask-app.labels" . | nindent 4 }}
   annotations:
+    cert-manager.io/issuer: letsencrypt-prod
+    external-dns.alpha.kubernetes.io/hostname: tty0.guru
+    external-dns.alpha.kubernetes.io/ttl: "120"
     kubernetes.io/ingress.class: nginx
+    nginx.ingress.kubernetes.io/secure-backends: "true"
+    nginx.ingress.kubernetes.io/ssl-redirect: "true"
+    nginx.org/redirect-to-https: "true"
   name: flask-app
   namespace: default
 spec:
