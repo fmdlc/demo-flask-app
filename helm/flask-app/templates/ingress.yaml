@@ -31,7 +31,7 @@ spec:
         path: "/"
         backend:
           service:
-            name: flask-app
+            name: ekoparty-flask-app
             port:
               number: 8000
   - host: "email.tty0.guru"
@@ -41,6 +41,6 @@ spec:
         path: "/"
         backend:
           service:
-            name: flask-app
+            name: ekoparty-flask-app
             port:
               number: 8000
