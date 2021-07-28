@@ -24,16 +24,6 @@ spec:
       - email.tty0.guru
       secretName: ingress-tls
   rules:
-  - host: "flask-app.tty.guru"
-    http:
-      paths:
-      - pathType: Prefix
-        path: "/"
-        backend:
-          service:
-            name: flask-app
-            port:
-              number: 8000
   - host: "flask-app.tty0.guru"
     http:
       paths:
