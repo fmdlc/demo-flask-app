@@ -1,7 +1,5 @@
-![https://media-exp1.licdn.com/dms/image/C4E1BAQF0-zKgjLFxiQ/company-background_10000/0?e=2159024400&v=beta&t=B1JsIFyearEmYZXtVxOjb-cKBSMB-jrdtmO7MKZH1Ls](https://media-exp1.licdn.com/dms/image/C4E1BAQF0-zKgjLFxiQ/company-background_10000/0?e=2159024400&v=beta&t=B1JsIFyearEmYZXtVxOjb-cKBSMB-jrdtmO7MKZH1Ls)
-
-# ekoparty-flask-app
-![ekoparty-flask-app](https://github.com/fmdlc/ekoparty-flask-app/workflows/ekoparty-flask-app/badge.svg)
+# demo-flask-app
+![demo-flask-app](https://github.com/fmdlc/demo-flask-app/workflows/demo-flask-app/badge.svg)
 
 Basic `Python 3.8` Flask application to run in a Kubernetes cluster.
 
@@ -42,10 +40,10 @@ $ docker run -p 8080 -it tty0/flask_app
 2) First test installation with `--dry-run` parameter. You can specify the namespace by using `-n` modificator or alter any input parameter with `--set=<PARAMETER:VALUE>`.
 
 ```bash
-$ cd ./helm/ekoparty-flask-app
-$ helm install ekoparty-flask-app . -n default
-Release "ekoparty-flask-app" has been upgraded. Happy Helming!
-NAME: ekoparty-flask-app
+$ cd ./helm/demo-flask-app
+$ helm install demo-flask-app . -n default
+Release "demo-flask-app" has been upgraded. Happy Helming!
+NAME: demo-flask-app
 LAST DEPLOYED: Thu Sep  3 23:01:39 2020
 NAMESPACE: wildwest
 STATUS: deployed
@@ -53,7 +51,7 @@ REVISION: 4
 TEST SUITE: None
 NOTES:
 1. Get the application URL by running these commands:
-  export POD_NAME=$(kubectl get pods --namespace wildwest -l "00app.kubernetes.io/name=ekoparty-flask-app,app.kubernetes.io/instance=ekoparty-flask-app" -o jsonpath="{.items[0].metadata.name}")
+  export POD_NAME=$(kubectl get pods --namespace wildwest -l "00app.kubernetes.io/name=demo-flask-app,app.kubernetes.io/instance=demo-flask-app" -o jsonpath="{.items[0].metadata.name}")
   echo "Visit http://127.0.0.1:8080 to use your application"
   kubectl --namespace wildwest port-forward $POD_NAME 8080:8000
 ```
@@ -61,7 +59,7 @@ NOTES:
 #### Values.yaml
 
 ```yaml
-# Default values for ekoparty-flask-app.
+# Default values for demo-flask-app.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
@@ -92,7 +90,7 @@ autoscaling:
 
 conf:
   salute: "better ask for forgiveness than permission"
-  header: "https://ekoparty.org/web/image/1309/badges.jpg"
+  header: "https://demo.org/web/image/1309/badges.jpg"
 ```
 
  ## Contributing
