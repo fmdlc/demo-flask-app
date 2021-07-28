@@ -43,4 +43,4 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
           repository: tty0/flask_app
-          tags: 1.0
+          tags: 1.1
