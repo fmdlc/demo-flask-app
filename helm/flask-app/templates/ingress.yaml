@@ -23,3 +23,8 @@ spec:
               serviceName: ekoparty-flask-app
               servicePort: 8000
             path: /
+  tls:
+    - hosts:
+      - flask-app.tty0.guru
+      secretName: ingress-tls
+
