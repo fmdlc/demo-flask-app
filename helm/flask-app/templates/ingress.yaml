@@ -34,7 +34,7 @@ spec:
             name: flask-app
             port:
               number: 8000
-  - host: "dc-solutions.tty0.guru"
+  - host: "flask-app.tty0.guru"
     http:
       paths:
       - pathType: Prefix
