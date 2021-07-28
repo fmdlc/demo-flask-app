@@ -28,7 +28,7 @@ autoscaling:
   targetMemoryUtilizationPercentage: 80
 
 conf:
-  salute: "Hello Ekoparty!"
+  salute: "Hola a todos!"
   ##----------------------------------------------------------------------
   ## Demo salute
   ##----------------------------------------------------------------------
