@@ -15,37 +15,16 @@ metadata:
     nginx.ingress.kubernetes.io/cors-allow-origin: '*'
     nginx.ingress.kubernetes.io/default-backend: nginx
     nginx.ingress.kubernetes.io/enable-cors: "true"
+    service.beta.kubernetes.io/aws-load-balancer-internal: true
   name: flask-app
   namespace: default
 spec:
   tls:
     - hosts:
       - flask-app.tty0.guru
-      - email.tty0.guru
-      - dc-solutions.tty0.guru
       secretName: ingress-tls
   rules:
   - host: "flask-app.tty0.guru"
-    http:
-      paths:
-      - pathType: Prefix
-        path: "/"
-        backend:
-          service:
-            name: ekoparty-flask-app
-            port:
-              number: 8000
-  - host: "email.tty0.guru"
-    http:
-      paths:
-      - pathType: Prefix
-        path: "/"
-        backend:
-          service:
-            name: ekoparty-flask-app
-            port:
-              number: 8000
-  - host: "dc-solutions.tty0.guru"
     http:
       paths:
       - pathType: Prefix
