@@ -4,6 +4,8 @@
 
 replicaCount: 2
 
+namespace: default
+
 image:
   repository: tty0/flask_app
   pullPolicy: Always
@@ -27,17 +29,36 @@ autoscaling:
   targetCPUUtilizationPercentage: 80
   targetMemoryUtilizationPercentage: 80
 
+ingress:
+  hostname: flask-app.tty0.guru
+  class: nginx
+  path: "/"
+  dnsController:
+    enabled: true
+    hostname: tty0.guru
+    ttl: "120"
+  certManager:
+    enabled: true
+    issuer: "letsencrypt-prod"
+    acmeChallenge: "http01"
+  annotations:
+    nginx.ingress.kubernetes.io/ssl-redirect: "true"
+    nginx.ingress.kubernetes.io/force-ssl-redirect: "true"
+    nginx.ingress.kubernetes.io/cors-allow-methods: "PUT, GET, POST, OPTIONS"
+    nginx.ingress.kubernetes.io/cors-allow-origin: '*'
+    nginx.ingress.kubernetes.io/default-backend: "nginx"
+    nginx.ingress.kubernetes.io/enable-cors: "true"
+
 conf:
-  salute: "Hola a todos!"
   ##----------------------------------------------------------------------
   ## Demo salute
   ##----------------------------------------------------------------------
-  #salute: "One Ring to link them all, One Ring to ping them, one Ring to bring them all and in the darkness sniff them."
+  salute: "One Ring to link them all, One Ring to ping them, one Ring to bring them all and in the darkness sniff them."
   ##----------------------------------------------------------------------
   # Initial header
-  #header: "https://ekoparty.org/web/image/1309/badges.jpg"
+  header: "https://ekoparty.org/web/image/1309/badges.jpg"
   ##----------------------------------------------------------------------
   ## Demo header
   ##----------------------------------------------------------------------
-  header: "https://64.media.tumblr.com/tumblr_mdancgV98b1r4xjo2o1_500.gif"
+  #header: "https://64.media.tumblr.com/tumblr_mdancgV98b1r4xjo2o1_500.gif"
 
