@@ -1,5 +1,3 @@
-![https://media-exp1.licdn.com/dms/image/C4E1BAQF0-zKgjLFxiQ/company-background_10000/0?e=2159024400&v=beta&t=B1JsIFyearEmYZXtVxOjb-cKBSMB-jrdtmO7MKZH1Ls](https://media-exp1.licdn.com/dms/image/C4E1BAQF0-zKgjLFxiQ/company-background_10000/0?e=2159024400&v=beta&t=B1JsIFyearEmYZXtVxOjb-cKBSMB-jrdtmO7MKZH1Ls)
-
 # demo-flask-app
 ![demo-flask-app](https://github.com/fmdlc/demo-flask-app/workflows/demo-flask-app/badge.svg)
 
