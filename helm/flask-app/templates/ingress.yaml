@@ -10,7 +10,7 @@ metadata:
     {{- end }}
     {{- if eq .Values.ingress.dnsController.enabled true }}
     external-dns.alpha.kubernetes.io/hostname: {{ .Values.ingress.dnsController.hostname }}
-    external-dns.alpha.kubernetes.io/ttl: {{ .Values.ingress.dnsController.ttl | default "120" }}
+    external-dns.alpha.kubernetes.io/ttl: {{ .Values.ingress.dnsController.ttl | quote | default "120" }}
     {{- end }}
     kubernetes.io/ingress.class: {{ .Values.ingress.class | default "nginx" }}
     {{- range $key, $value := .Values.ingress.annotations }}
