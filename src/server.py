@@ -12,7 +12,7 @@ def main():
     :return: object
     """
     message = os.getenv("SALUTE") if os.getenv("SALUTE") is not None \
-        else "ekoparty 2020"
+        else "demo 2020"
     header_image = os.getenv('HEADER_IMG') if os.getenv("HEADER_IMG") is \
         not None else "static/img/nyancat.jpg"
 

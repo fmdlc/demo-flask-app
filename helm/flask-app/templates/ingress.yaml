@@ -17,7 +17,7 @@ metadata:
     {{ $key }}: {{ $value | quote }}
     {{- end }}
   labels:
-    {{- include "ekoparty-flask-app.selectorLabels" . | nindent 4 }}
+    {{- include "demo-flask-app.selectorLabels" . | nindent 4 }}
   namespace: {{ .Values.namespace | default "default" }}
 spec:
   tls:
@@ -32,6 +32,6 @@ spec:
         path: {{ .Values.ingress.path | default "/" }}
         backend:
           service:
-            name: {{ include "ekoparty-flask-app.fullname" . }}
+            name: {{ include "demo-flask-app.fullname" . }}
             port:
               number: {{ .Values.service.port }}

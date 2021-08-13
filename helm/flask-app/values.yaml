@@ -1,4 +1,4 @@
-# Default values for ekoparty-flask-app.
+# Default values for demo-flask-app.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
@@ -56,9 +56,9 @@ conf:
   salute: "One Ring to link them all, One Ring to ping them, one Ring to bring them all and in the darkness sniff them."
   ##----------------------------------------------------------------------
   # Initial header
-  header: "https://ekoparty.org/web/image/1309/badges.jpg"
+  header: "https://image.spreadshirtmedia.net/image-server/v1/compositions/T1040A14PA2641PT26X30Y7D126917021FS8999/views/1,width=650,height=650,appearanceId=14,backgroundColor=fff.jpg"
   ##----------------------------------------------------------------------
   ## Demo header
   ##----------------------------------------------------------------------
-  #header: "https://64.media.tumblr.com/tumblr_mdancgV98b1r4xjo2o1_500.gif"
+  #header: "https://media.revistagq.com/photos/5ca5facbf552a15f9432edfe/master/w_1600,c_limit/mr_robot_5832.jpg"
 
