@@ -53,13 +53,13 @@ conf:
   ##----------------------------------------------------------------------
   ## Demo salute
   ##----------------------------------------------------------------------
-  #salute: "One Ring to link them all, One Ring to ping them, one Ring to bring them all and in the darkness sniff them."
+  salute: "One Ring to link them all, One Ring to ping them, one Ring to bring them all and in the darkness sniff them."
   ##----------------------------------------------------------------------
   # Initial header
-  #header: "https://www.enjpg.com/img/2020/outer-space-background-3.jpg"
+  header: "https://www.enjpg.com/img/2020/outer-space-background-3.jpg"
   ##----------------------------------------------------------------------
   ## Demo header
   ##----------------------------------------------------------------------
-  header: "https://media.revistagq.com/photos/5ca5facbf552a15f9432edfe/master/w_1600,c_limit/mr_robot_5832.jpg"
-  salute: "Our democracy has been hacked"
+  #header: "https://media.revistagq.com/photos/5ca5facbf552a15f9432edfe/master/w_1600,c_limit/mr_robot_5832.jpg"
+  #salute: "Our democracy has been hacked"
 
