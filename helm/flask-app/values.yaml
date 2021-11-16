@@ -53,7 +53,7 @@ conf:
   ##----------------------------------------------------------------------
   ## Demo salute
   ##----------------------------------------------------------------------
-  salute: "Feliz Primavera"
+  salute: "The world itself's just one big hoax."
   ##----------------------------------------------------------------------
   # Initial header
   header: "https://www.enjpg.com/img/2020/outer-space-background-3.jpg"
