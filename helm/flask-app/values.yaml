@@ -30,7 +30,7 @@ autoscaling:
   targetMemoryUtilizationPercentage: 80
 
 ingress:
-  hostname: flask-app.tty0.guru
+  hostname: live-demo.tty0.guru
   class: nginx
   path: "/"
   dnsController:
