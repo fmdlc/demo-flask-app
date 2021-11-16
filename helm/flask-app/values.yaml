@@ -53,7 +53,7 @@ conf:
   ##----------------------------------------------------------------------
   ## Demo salute
   ##----------------------------------------------------------------------
-  salute: "The world itself's just one big hoax."
+  #salute: "The world itself's just one big hoax."
   ##----------------------------------------------------------------------
   # Initial header
   header: "https://www.enjpg.com/img/2020/outer-space-background-3.jpg"
@@ -61,5 +61,5 @@ conf:
   ## Demo header
   ##----------------------------------------------------------------------
   #header: "https://media.revistagq.com/photos/5ca5facbf552a15f9432edfe/master/w_1600,c_limit/mr_robot_5832.jpg"
-  #salute: "Our democracy has been hacked"
+  salute: "Our democracy has been hacked"
 
